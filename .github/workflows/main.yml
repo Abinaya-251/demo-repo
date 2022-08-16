@@ -6,4 +6,5 @@ jobs:
       - run: npm install -g npm@latest
       - run: node --version
       - run: npm --version
+      - run: npm install
   
