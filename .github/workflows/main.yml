@@ -1,3 +1,4 @@
+name: Demo node workflow
 on: push
 jobs:
   first-jobb:
