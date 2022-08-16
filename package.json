@@ -22,9 +22,8 @@
   "author": "Abinaya",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/YannMjl/nodejs-demo-app/issues"
+    "url": /issues""https://github.com/Abinaya-251/demo-repo/edit/main/package.json/issues"
   },
-  "homepage": "https://github.com/YannMjl/nodejs-demo-app#readme",
   "dependencies": {
     "babel-cli": "^6.26.0",
     "babel-preset": "^1.1.7",
