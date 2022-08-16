@@ -1,9 +1,0 @@
-{
-  "name": "demo-repo",
-  "version": "1.0.0",
-  "main": "index.js",
-  "dependencies":{
-    "moment": "2.29.1"
-  }
-
-}
