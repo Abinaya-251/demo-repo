@@ -3,11 +3,16 @@ jobs:
   first-jobb:
     runs-on: ubuntu-latest 
     steps:
-      - run: npm install -g npm@latest
-      - run: node --version
-      - run: npm --version
+      - name: install npm latest version
+        run: npm install -g npm@latest
+      - name: Check node version
+        run: node --version
+      - name: Check npm version
+        run: npm --version
       - uses: actions/checkout@v2
-      - run: npm install
-      - run: node index.js
+      - name: Installing additional dependencies
+        run: npm install
+      - name: running index.js file
+        run: node index.js
       
   
