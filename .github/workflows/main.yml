@@ -1,0 +1,9 @@
+on: push
+jobs:
+  first-jobb:
+    runs-on: ubuntu-latest 
+    container: node:16.16.0
+    steps:
+      - run: node --version
+      - run: npm --version
+  
