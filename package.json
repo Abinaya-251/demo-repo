@@ -1,11 +1,38 @@
 {
   "name": "demo-repo",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "this is a nodejs demo app",
+  "type": "module",
+  "main": "app.js",
+  "scripts": {
+    "start": "babel-node ./app.js",
+    "test": "jest",
+    "build": "echo Test build completed! No package was uploaded"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/YannMjl/nodejs-demo-app.git"
+  },
+  "keywords": [
+    "node",
+    "nodejs",
+    "express",
+    "babel"
+  ],
+  "author": "Abinaya",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/YannMjl/nodejs-demo-app/issues"
+  },
+  "homepage": "https://github.com/YannMjl/nodejs-demo-app#readme",
   "dependencies": {
-    "express": "^4.18.1",
-    "moment": "^2.29.4",
-    "nodemon": "^2.0.19"
+    "babel-cli": "^6.26.0",
+    "babel-preset": "^1.1.7",
+    "babel-preset-env": "^1.7.0",
+    "express": "^4.17.1",
+    "jest": "^27.0.3"
+  },
+  "engines": {
+    "node": "14.x"
   }
 }
