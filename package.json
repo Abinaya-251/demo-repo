@@ -19,11 +19,6 @@
     "express",
     "babel"
   ],
-  "author": "Abinaya",
-  "license": "ISC",
-  "bugs": {
-    "url": /issues""https://github.com/Abinaya-251/demo-repo/edit/main/package.json/issues"
-  },
   "dependencies": {
     "babel-cli": "^6.26.0",
     "babel-preset": "^1.1.7",
