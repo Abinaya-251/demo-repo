@@ -3,6 +3,7 @@ jobs:
   first-jobb:
     runs-on: ubuntu-latest 
     steps:
+      - run: npm install -g npm@latest
       - run: node --version
       - run: npm --version
   
